@@ -1,0 +1,15 @@
+{
+  "name": "ggg",
+  "version": "1.0.0",
+  "description": "Using OOP, I created this web application which users are able to access information about wildlife in Canadian cities.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
