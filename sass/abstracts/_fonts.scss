@@ -1,0 +1,21 @@
+@use 'mixins' as m;
+
+@font-face {
+    font-family:'PremierLeague-Heavy';
+    src: url('../font/PremierLeague-Heavy.woff') format('woff');  
+}
+
+@font-face {
+    font-family:'PremierLeague-Light';
+    src: url('../font/PremierLeague-Light.woff') format('woff');  
+}
+
+@font-face {
+    font-family:'PremierLeague-Regular';
+    src: url('../font/PremierLeague-Regular.woff') format('woff');  
+}
+
+@font-face {
+    font-family:'PremierLeague-Bold';
+    src: url('../font/PremierLeague-Bold.woff') format('woff');  
+}

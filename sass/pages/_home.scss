@@ -1,0 +1,152 @@
+@use '../abstracts/variables' as b;
+
+body{
+  background: linear-gradient(#141e30, #243b55);
+}
+
+#title-box{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.banner-title{
+  height: 150px;
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+#main-title{
+  color: #ffff;
+  text-align: center;
+  font-family: b.$heading-font-family;
+  font-size: 30px;
+}
+
+#container-select{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#container-select label{
+  font-size: 40px;
+  font-family: b.$bold-body-font;
+  text-transform: uppercase;
+  color: #8594e4;
+  margin-bottom: 10px;
+}
+
+#list-players{
+  text-align: center;
+}
+
+
+.team{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.players{
+  padding-left: 0;
+}
+
+.players li{
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  
+background: radial-gradient(780px at 37.8% 100.3%, rgb(19, 55, 115) 2.2%, rgb(32, 7, 80) 20.2%, rgb(27, 88, 111) 58.6%, rgb(115, 88, 44) 75%, rgb(99, 19, 90) 89.6%, rgb(12, 51, 76) 96.1%);
+
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+ul {
+  list-style: none;
+}
+
+.stats-list{
+  display: flex;
+  flex-direction: column;
+}
+
+
+#container-select{
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+
+select{
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  background-color:#6930ec; 
+  color: white;
+  padding: 12px;
+  width: 250px;
+  border: none;
+  font-size: 13px;
+  outline: none;
+}
+
+
+@media screen and (min-width:768px){
+  
+  select{
+    width: 300px;
+    font-size: 17px;
+    font-weight: bold;
+  }
+}
+
+
+@media screen and (min-width:1200px){
+
+  .banner-title{
+    height: 230px;
+  }
+
+  #main-title{
+    font-size: 50px;
+  }
+
+  
+  select{
+    width: 300px;
+    font-size: 19px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width:1920px){
+
+  .banner-title{
+    height: 260px;
+  }
+
+  #main-title{
+    font-size: 70px;
+  }
+
+  
+  select{
+    width: 460px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
+
+
+
