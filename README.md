@@ -1,1 +1,0 @@
-# a_sultan-OOP-JS
